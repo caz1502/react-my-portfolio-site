@@ -6,11 +6,11 @@ import React from "react";
 
 function Projects() {
   return (
-    <Projects>
+   
       <div>
         <p>Testing Projects</p>
       </div>
-    </Projects>
+   
   );
 }
 

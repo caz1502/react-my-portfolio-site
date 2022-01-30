@@ -6,11 +6,11 @@ import React from "react";
 
 function Header() {
   return (
-  <Header>
+  
       <div>
         <p>Testing Header</p>
       </div>
-    </Header>
+    
   );
 }
 

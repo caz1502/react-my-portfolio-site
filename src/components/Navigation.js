@@ -7,12 +7,12 @@ import React from "react";
 
 function Navigation() {
   return (
-    <Navigation>
+  
       <div>
         <p>Testing Navigation</p>
       </div>
      
-    </Navigation>
+   
   );
 }
 

@@ -1,16 +1,18 @@
-
-import './App.css';
+import React from "react";
+// import "./App.css";
 import Navigation from "./components/Navigation";
-// import Header from "./components/Header";
-
-// import Project from "./components/Project";
-// import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      {/* <Navigation /> */}
-      Learn React
+      <Navigation />
+      <Header />
+      <Projects />
+      <Footer />
+      add contact page
     </div>
   );
 }
