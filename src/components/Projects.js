@@ -1,4 +1,5 @@
 import React from "react";
+import { Row, Container, Col} from "react-bootstrap";
 
 // import "../styles/Footer.css";
 
@@ -6,12 +7,17 @@ import React from "react";
 
 function Projects() {
   return (
-   
-      <div>
-        <p>Testing Projects</p>
-      </div>
-   
+    <div id="projects">
+      <Container>
+        <Row>
+          <Col sm={8}>sm=4 add pic here</Col>
+          <Col sm={4}>sm=8 add about me here</Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
+ 
+
 
 export default Projects;

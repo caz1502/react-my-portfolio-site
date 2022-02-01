@@ -6,7 +6,7 @@ function Footer() {
   return (
    
       <div>
-        <p>Testing Footer</p>
+        <p>Thank you for Visiting</p>
       </div>
    
   );
