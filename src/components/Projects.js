@@ -34,7 +34,7 @@ function Projects() {
                   marginRight: "auto",
                   marginTop: "40px",
                   marginBottom: "30px",
-                  borderRadius: "50px",
+                 
                 }}
               />
               <div className="card-body">

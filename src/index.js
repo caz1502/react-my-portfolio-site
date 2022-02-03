@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './App.css';
-// import "./scss/custom.scss";
 import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 
 
 ReactDOM.render(
