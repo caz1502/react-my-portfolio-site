@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import headshot from "../assets/Profile161x161.jpg";
 
 // import "../styles/Footer.css";
 
@@ -8,16 +9,24 @@ import { Container, Col, Row } from "react-bootstrap";
 function Header() {
   return (
     <div id="about-me">
-      <Container>
+      <Container style={{ marginTop: "100px", marginBottom: "200px" }}>
         <Row>
-          <Col sm={8}>sm=4 add pic here</Col>
-          <Col sm={4}>
-            Business Analyst based in Brisbane, Queensland, currently studying
-            Fullstack Development through UniSA. I have a passion for
-            innovation, data and empowering people through knowledge, `Scientia
-            potentia est` Over the last 2 years, I have been transitioning from
-            my Procurement specialty as a Buyer to Business Intelligence in the
-            direction of Data Science and Full Stack Development"
+          <Col sm={5}>
+            <img
+              src={headshot}
+              alt="place-holder"
+              style={{ width: "500px", borderRadius: "50px" }}
+            />
+          </Col>
+
+          <Col sm={7} style={{ fontSize: "1.5rem", marginTop: "125px" }}>
+            <h1>About Me</h1>I am a Business Analyst based in Brisbane,
+            Queensland, currently studying Fullstack Development through UniSA.
+            I have a passion for innovation, data and empowering people through
+            knowledge, `Scientia potentia est` Over the last 2 years, I have
+            been transitioning from my Procurement specialty as a Buyer to
+            Business Intelligence in the direction of Data Science and Full
+            Stack Development"
           </Col>
         </Row>
       </Container>

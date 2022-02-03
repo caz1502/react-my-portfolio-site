@@ -1,14 +1,20 @@
 import React from "react";
-// import "../styles/Footer.css";
-// We use JSX curly braces to evaluate the style object on the JSX tag
+import { Container } from "react-bootstrap";
 
 function Footer() {
   return (
-   
-      <div>
-        <p>Thank you for Visiting</p>
-      </div>
-   
+    <div>
+      <Container
+        style={{
+          marginTop: "100px",
+          marginBottom: "30px",
+          textAlign: "center",
+          fontSize: "30px",
+        }}
+      >
+        Thank you for Visiting! ❤️
+      </Container>
+    </div>
   );
 }
 
