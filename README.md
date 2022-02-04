@@ -1,12 +1,15 @@
 # 20 React: React Portfolio
 
+
 ## The Task
+```
 
 Create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
 
 You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
 
 **Important:** Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+```
 
 ## User Story
 
@@ -48,32 +51,22 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Media
 
-The following animation shows the web application's appearance and functionality:
+[!Portfolio](./src/assets/reactportfolio.png)
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
-
-## Getting Started
-
-
-
-* A single `Header` component that appears on multiple pages
-
-
+---
 ## Technologies Used
 
-HTML ( UIKIT / TAILWIND )
-JAVA SCRIPT / JQUERY
-CSS
-API
+* JAVA SCRIPT 
+* Node JS
+* React
+* CSS
 
 
+```
 ## Authors, Acknowledgement, & Resources 🤝
-Teaching Crew at UniSA Coding Bootcamp 🎉
-W3Schools 🤓
-GitHub 
-Youtube
-Google
-StackOverflow
 
+Teaching Crew at UniSA Coding Bootcamp 🎉
+React Router for Navigation - Dipesh Malvia
+```
 
 

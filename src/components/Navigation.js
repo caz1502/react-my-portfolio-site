@@ -1,10 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import resume from "../assets/Resume.pdf";
-import Projects from ".//Projects";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Link } from "react-router";
-
 
 function Navigation() {
 
@@ -14,8 +10,8 @@ function Navigation() {
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav>
-               <Nav.Link
+            <Nav >
+              <Nav.Link               
                 href="/Header"
                 rel="noopener noreferrer"
                 style={{ fontSize: "25px" }}
@@ -24,11 +20,12 @@ function Navigation() {
               </Nav.Link>
 
               <Nav.Link
+               
                 href="/Projects"
                 rel="noopener noreferrer"
                 style={{ fontSize: "25px" }}
               >
-                Projects
+                Portfolio
               </Nav.Link>
 
               <Nav.Link

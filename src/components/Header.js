@@ -2,16 +2,14 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import headshot from "../assets/Profile161x161.jpg";
 
-// import "../styles/Footer.css";
-
-// We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Header() {
   return (
     <div id="about-me">
+    
       <Container style={{ marginTop: "100px", marginBottom: "200px" }}>
         <Row>
-          <Col sm={5}>
+          <Col>
             <img
               src={headshot}
               alt="place-holder"
@@ -19,8 +17,8 @@ function Header() {
             />
           </Col>
 
-          <Col sm={7} style={{ fontSize: "1.5rem", marginTop: "125px" }}>
-            <h1>About Me</h1>I am a Business Analyst based in Brisbane,
+          <Col style={{ marginTop: "125px" }}>
+            <h4>About Me</h4>I am a Business Analyst based in Brisbane,
             Queensland, currently studying Fullstack Development through UniSA.
             I have a passion for innovation, data and empowering people through
             knowledge, `Scientia potentia est` Over the last 2 years, I have
