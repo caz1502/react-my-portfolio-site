@@ -1,6 +1,6 @@
 {
-  "homepage": "https://caz1502.github.io/react-my-portfolio-site",
-  "name": "my-app",
+  "homepage": "https://caz1502.github.io/react-my-portfolio-site/",
+  "name": "react-my-portfolio-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "deployed -d build"
   },
   "eslintConfig": {
     "extends": [
