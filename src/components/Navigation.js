@@ -3,15 +3,14 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import resume from "../assets/Resume.pdf";
 
 function Navigation() {
-
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav >
-              <Nav.Link               
+            <Nav>
+              <Nav.Link
                 href="/Header"
                 rel="noopener noreferrer"
                 style={{ fontSize: "25px" }}
@@ -20,7 +19,6 @@ function Navigation() {
               </Nav.Link>
 
               <Nav.Link
-               
                 href="/Projects"
                 rel="noopener noreferrer"
                 style={{ fontSize: "25px" }}

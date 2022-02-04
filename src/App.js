@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navigation from "./components/Navigation";
@@ -6,23 +6,27 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./css/app.css"
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <Navigation />
-
-      <div>       
-        <Switch>
-          <Route path="/Header" component={Header} />
-          <Route path="/Projects" component={Projects} />
-          <Route path="/Contact" component={Contact} />
-        </Switch>
-        <Footer />
+    <div>
+      <Router>
+        
+        <Navigation />
+        <h4>Find out about me ...</h4>
+      <Route path="/Header" component={Header} />
+      <Route path="/Projects" component={Projects} />
+      <Route path="/Contact" component={Contact} />
+      <Footer></Footer>
+      </Router>
       </div>
-    </Router>
   );
 }
 
 export default App;
+
+
+
+

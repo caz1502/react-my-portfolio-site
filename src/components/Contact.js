@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "../css/contact.css"
+import Navigation from "./Navigation";
 
 const Contact = () => {
   function sendEmail(e) {
@@ -19,6 +20,7 @@ const Contact = () => {
       .catch((err) => console.log(err));
   }
   return (
+ 
    
     <div className="container contact">
       <h1 style={{marginTop:"3rem",marginBottom:"3rem", textAlign:"center"}}>Contact Form</h1>
